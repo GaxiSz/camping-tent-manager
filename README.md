@@ -1,5 +1,36 @@
-# Vue 3 + Vite
+# Tent Booking Manager (Vue + Supabase)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A web app to manage tents and camping spots at a campsite.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## ✨ Features
+- Create tents or free spots
+- Book, extend, and free units
+- Automatic release at 13:00 if not extended
+- Realtime sync across devices with Supabase
+- Deployed on Cloudflare Pages (free hosting)
+
+## 🚀 Live Demo
+👉 [pineside.pages.dev](https://pineside.pages.dev)
+
+## 🛠 Tech Stack
+- [Vue 3](https://vuejs.org/) + Vite
+- [Supabase](https://supabase.com/) (Auth, Database, Realtime)
+- [Cloudflare Pages](https://pages.cloudflare.com/) (Deployment)
+
+
+Setup & Installation
+Clone the repo and run locally:
+git clone https://github.com/YOUR-USERNAME/tent-booking-manager.git
+cd tent-booking-manager
+npm install
+npm run dev
+
+🔑 Environment Variables
+Create a .env file in the root:
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-anon-key
+VITE_TENANT_ID=uuid-here
+
+📜 License
+This project is open source and available under the MIT License.
+
